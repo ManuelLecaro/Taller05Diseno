@@ -1,2 +1,3 @@
 # Taller05Diseno
 OCP ESTA OCUPADO
+ISP OCUPADO
