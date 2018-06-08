@@ -1,0 +1,3 @@
+Se cambió la interface Vehículo para que tengan que implementar los giros de derecha e izquierda.
+
+El testeador de giros ahora sólo debe de llamar a los métodos por medio de polimorfismo.
