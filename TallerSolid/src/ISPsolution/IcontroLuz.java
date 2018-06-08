@@ -1,4 +1,4 @@
-package ISPviolation;
+package ISPsolution;
 
 public interface IcontroLuz {
 

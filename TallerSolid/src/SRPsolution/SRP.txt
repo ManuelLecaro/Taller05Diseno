@@ -1,0 +1,2 @@
+La solución consiste en separar a la clase MaquinaHaceTodo la cual está enfocada en muchas tareas y podría cambiar por muchas razones
+en otras clases para que realicen una tarea específica y se cumpla el SRP
