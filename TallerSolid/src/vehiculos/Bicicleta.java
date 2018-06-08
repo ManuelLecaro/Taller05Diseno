@@ -2,7 +2,7 @@ package vehiculos;
 
 import DIPviolation.AsientoParaBicicleta;
 import DIPviolation.LlantaParaBicicleta;
-import LSPviolation.Campana;
+import LSPsolution.Campana;
 
 public class Bicicleta implements Vehiculo{
 	//Esta clase va relacionada con varias violaciones de principios

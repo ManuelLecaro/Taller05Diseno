@@ -2,7 +2,7 @@ package vehiculos;
 
 import DIPviolation.AsientoParaCarro;
 import DIPviolation.LlantaParaCarro;
-import LSPviolation.Radio;
+import LSPsolution.Radio;
 
 public class Carro implements Vehiculo{
 	//Esta clase va relacionada con varias violaciones de principios
@@ -43,7 +43,7 @@ public class Carro implements Vehiculo{
 	@Override
 	public void escuchar() {
 		if(!radio.isEncendida()) {
-			return;
+			radio.enciende();
 		}
 		//Codigo para escuchar la radio
 	}
