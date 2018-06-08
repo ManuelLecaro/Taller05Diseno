@@ -11,7 +11,7 @@ import ISPsolution.Iprinter;
  *
  * @author MNLL
  */
-public class MaquinaImpresora implements Iprinter {
+public class MaquinaImpresora extends Maquina implements Iprinter{
 
     @Override
     public void imprimirInforme() {

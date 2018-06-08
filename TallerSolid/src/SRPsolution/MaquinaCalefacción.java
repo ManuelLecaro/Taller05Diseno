@@ -11,7 +11,7 @@ import ISPsolution.Icalefaccion;
  *
  * @author MNLL
  */
-public class MaquinaCalefacción implements Icalefaccion{
+public class MaquinaCalefacción extends Maquina implements Icalefaccion{
 
     @Override
     public void calentarHabitacion() {

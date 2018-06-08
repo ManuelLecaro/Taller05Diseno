@@ -11,7 +11,7 @@ import ISPsolution.Ibicicleta;
  *
  * @author MNLL
  */
-public class MaquinaHaceBicicletas implements Ibicicleta{
+public class MaquinaHaceBicicletas extends Maquina implements Ibicicleta{
 
     @Override
     public void fabricarBicicleta() {

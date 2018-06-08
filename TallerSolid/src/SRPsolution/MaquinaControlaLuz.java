@@ -11,7 +11,7 @@ import ISPsolution.IcontroLuz;
  *
  * @author MNLL
  */
-public class MaquinaControlaLuz implements IcontroLuz {
+public class MaquinaControlaLuz extends Maquina implements IcontroLuz {
 
     @Override
     public void encenderLuces() {

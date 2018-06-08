@@ -11,7 +11,7 @@ import ISPsolution.Istereo;
  *
  * @author MNLL
  */
-public class MaquinaEstereo implements Istereo {
+public class MaquinaEstereo extends Maquina implements Istereo {
 
     @Override
     public void reproducirMusicaGlobalmente() {

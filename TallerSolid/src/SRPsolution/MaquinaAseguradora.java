@@ -11,7 +11,7 @@ import ISPsolution.Iseguro;
  *
  * @author MNLL
  */
-public class MaquinaAseguradora implements Iseguro{
+public class MaquinaAseguradora extends Maquina implements Iseguro{
 
     @Override
     public void asegurarPuertas() {

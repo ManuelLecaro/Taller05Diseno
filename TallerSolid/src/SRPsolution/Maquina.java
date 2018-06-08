@@ -10,5 +10,13 @@ package SRPsolution;
  * @author user
  */
 public class Maquina {
-    
+    private double energiaRestante; //Valor entre 00.00 y 100.00
+	
+	public Maquina() {
+		this.energiaRestante = 100.00;
+	}
+	
+	public Maquina(double energiaRestante) {
+		this.energiaRestante = energiaRestante;
+	}
 }

@@ -11,7 +11,7 @@ import ISPsolution.Ibebida;
  *
  * @author MNLL
  */
-public class MaquinaHaceBebidas implements Ibebida{
+public class MaquinaHaceBebidas extends Maquina implements Ibebida{
 
     
     @Override

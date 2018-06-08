@@ -11,7 +11,7 @@ import ISPsolution.Icarro;
  *
  * @author MNLL
  */
-public class MaquinaHaceCarros implements Icarro{
+public class MaquinaHaceCarros extends Maquina implements Icarro{
 
     @Override
     public void fabricarCarro() {
