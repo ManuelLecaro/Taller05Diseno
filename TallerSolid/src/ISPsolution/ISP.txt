@@ -1,0 +1,3 @@
+La solución consiste en crear distintas interfaces, una para cada tipo de clase. Esto se realiza con el objetivo 
+de que al aumentar clases, estas puedan escoger la interfaz que les conviene sin necesidad de modificarlas (la interfaz) y 
+las clases (convirtiendolas abstractas para evitar implementar métodos que no son de acorde a su funcionamiento) evitando un problema mayor.
